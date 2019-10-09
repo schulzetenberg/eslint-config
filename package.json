@@ -1,0 +1,66 @@
+{
+  "name": "@schulzetenberg/eslint-config-react",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 0",
+    "publish": "np",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/schulzetenberg/eslint-config-react.git"
+  },
+  "keywords": [
+    "lint",
+    "javascript",
+    "ecmascript",
+    "eslint",
+    "config",
+    "prettier",
+    "react"
+  ],
+  "author": "Jacob Schulzetenberg",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/schulzetenberg/eslint-config-react/issues"
+  },
+  "np": {
+    "yarn": false,
+    "yolo": true
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "homepage": "https://github.com/schulzetenberg/eslint-config-react#readme",
+  "peerDependencies": {
+    "babel-eslint": "10.0.3",
+    "eslint": "6.5.0",
+    "eslint-config-airbnb": "17.1.1",
+    "eslint-config-prettier": "6.0.0",
+    "eslint-plugin-html": "6.0.0",
+    "eslint-plugin-import": "2.18.2",
+    "eslint-plugin-jsx-a11y": "6.2.3",
+    "eslint-plugin-prettier": "3.1.1",
+    "eslint-plugin-react": "7.14.3",
+    "eslint-plugin-react-hooks": "2.1.1",
+    "prettier": "1.18.2"
+  },
+  "devDependencies": {
+    "babel-eslint": "10.0.3",
+    "eslint": "6.5.0",
+    "eslint-config-airbnb": "17.1.1",
+    "eslint-config-prettier": "6.0.0",
+    "eslint-plugin-html": "6.0.0",
+    "eslint-plugin-import": "2.18.2",
+    "eslint-plugin-jsx-a11y": "6.2.3",
+    "eslint-plugin-prettier": "3.1.1",
+    "eslint-plugin-react": "7.14.3",
+    "eslint-plugin-react-hooks": "2.1.1",
+    "np": "5.1.0",
+    "prettier": "1.18.2"
+  },
+  "dependencies": {}
+}
