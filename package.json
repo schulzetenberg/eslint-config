@@ -1,6 +1,6 @@
 {
   "name": "@schulzetenberg/eslint-config-react",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -19,8 +19,8 @@
     "ecmascript",
     "eslint",
     "config",
-	"prettier",
-	"typescript",
+    "prettier",
+    "typescript",
     "react"
   ],
   "author": "Jacob Schulzetenberg",
