@@ -13,7 +13,13 @@ Add the following to settings.json:
 	"eslint.validate": [
 		"javascript",
 		"javascriptreact",
-		"typescript",
-		"typescriptreact"
+		{
+			"autoFix": true,
+			"language": "typescript"
+		},
+		{
+			"autoFix": true,
+			"language": "typescriptreact"
+		}
 	]
 `
