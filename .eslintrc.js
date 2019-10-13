@@ -2,18 +2,17 @@ module.exports = {
   "extends": [
     "airbnb",
     "prettier",
-    "prettier/react"
+    "prettier/react",
+    "plugin:@typescript-eslint/recommended"
   ],
-  "parser": "babel-eslint",
-  "parserOptions": {
-    "ecmaVersion": 2018,
-    // Can these be removed?
-    "ecmaFeatures": {
-      "impliedStrict": true,
-      "classes": true,
-      "jsx": true
+  "parser": "@typescript-eslint/parser",
+  "parserOptions":  {
+    "ecmaVersion":  2018,
+    "sourceType":  "module",
+    "ecmaFeatures":  {
+      "jsx":  true,
     }
-  },
+	},
 	"env": {
 		"browser": true,
 		"node": true,
@@ -21,7 +20,6 @@ module.exports = {
 		"jest": true
 	},
 
-  // Override the airbnb rules here
   "rules": {
     "prefer-promise-reject-errors": 0,
     "no-use-before-define": 0,
@@ -67,8 +65,9 @@ module.exports = {
 	},
 	"plugins": [
 		"html",
-    "prettier",
-    "react",
-		"react-hooks"
+		"prettier",
+		"react",
+		"react-hooks",
+		"typescript-eslint"
 	]
 };
