@@ -34,6 +34,7 @@ module.exports = {
 		"import/extensions": 0,
 
     // react plugin
+    "react/jsx-props-no-spreading": 0,
     "react/display-name": 1,
     "react/no-array-index-key": 0,
     "react/react-in-jsx-scope": 0,
