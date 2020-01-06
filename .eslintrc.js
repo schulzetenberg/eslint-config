@@ -30,7 +30,8 @@ module.exports = {
     "prefer-promise-reject-errors": 0,
     "no-use-before-define": 0,
     "max-len": ["error", { "code": 180 }],
-    "jsx-a11y/accessible-emoji": 0,
+		"jsx-a11y/accessible-emoji": 0,
+		"import/extensions": 0,
 
     // react plugin
     "react/display-name": 1,
