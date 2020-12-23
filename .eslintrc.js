@@ -7,9 +7,7 @@ module.exports = {
   ],
   "settings": {
     "import/resolver": {
-      "node": {
-        "extensions": [".js", ".jsx", ".ts", ".tsx"]
-      }
+			typescript: {}
     }
   },
   "parser": "@typescript-eslint/parser",
@@ -38,7 +36,7 @@ module.exports = {
     "react/display-name": 1,
     "react/no-array-index-key": 0,
     "react/react-in-jsx-scope": 0,
-	"react/prop-types": 0,
+		"react/prop-types": 0,
     "react/forbid-prop-types": 0,
     "react/no-unescaped-entities": 0,
     "react/require-default-props": 0,
