@@ -1,9 +1,9 @@
 # eslint-config-react
- Custom eslint config enforcing airbnb, typescript, react & prettier rules
+ Custom eslint config enforcing Airbnb, Typescript, React & Prettier rules
 
 ### Install
 `
-	$ npx install-peerdeps --dev @schulzetenberg/eslint-config-react
+	$ npm i --dev @schulzetenberg/eslint-config-react
 `
 
 ### Enable ESLint on TS files in VSCode
