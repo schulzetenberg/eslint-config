@@ -27,7 +27,7 @@ module.exports = {
   "rules": {
     "prefer-promise-reject-errors": 0,
     "no-use-before-define": 0,
-    "max-len": ["error", { "code": 180 }],
+    "max-len": ["error", { "code": 120 }],
 		"jsx-a11y/accessible-emoji": 0,
 		"import/extensions": 0,
 
