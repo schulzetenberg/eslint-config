@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 0",
-    "deploy": "np",
+    "deploy": "np --no-2fa",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix"
   },
@@ -52,7 +52,7 @@
     "prettier": "1.19.1"
   },
   "devDependencies": {
-		"np": "7.0.0",
+    "np": "7.5.0",
     "typescript": "3.7.4"
   }
 }
