@@ -25,6 +25,8 @@ module.exports = {
     'max-len': ['error', { code: 120 }],
     'jsx-a11y/accessible-emoji': 0,
     'import/extensions': 0,
+    'no-unused-vars': 'off',
+    '@typescript-eslint/no-unused-vars': ['error'],
 
     // react plugin
     'react/function-component-definition': 0,
